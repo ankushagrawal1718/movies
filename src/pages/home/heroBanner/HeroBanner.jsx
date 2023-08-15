@@ -4,8 +4,8 @@ import { useNavigate } from 'react-router-dom';
 import useFetch from '../../../hooks/useFetch';
 import {useSelector} from "react-redux"
 
-import Img from "../../../componenets/lazyLoadImage/Img";
-import ContentWrapper from '../../../componenets/contentWrapper/ContentWrapper';
+import Img from "../../../components/lazyLoadImage/Img";
+import ContentWrapper from '../../../components/contentWrapper/ContentWrapper';
 
 const HeroBanner = () => {
     const [background,setBackground] = useState("");
